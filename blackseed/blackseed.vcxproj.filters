@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="exchanges">
+      <UniqueIdentifier>{219259f6-15b1-4ba3-b883-8b4e9e601fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\exchanges">
+      <UniqueIdentifier>{c1d32b0a-8f94-4a45-84b9-16156d2381e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{84e890ac-fd6e-4233-8e80-a715d1ecd570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{26042f38-6dda-4819-bf8f-94b02e40c98e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\bitcoin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\check_entry_exit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\curl_fun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\db_fun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\time_fun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exchanges\binance.cpp">
+      <Filter>Source Files\exchanges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exchanges\bitfinex.cpp">
+      <Filter>Source Files\exchanges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exchanges\bitstamp.cpp">
+      <Filter>Source Files\exchanges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exchanges\bittrex.cpp">
+      <Filter>Source Files\exchanges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exchanges\cexio.cpp">
+      <Filter>Source Files\exchanges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exchanges\exmo.cpp">
+      <Filter>Source Files\exchanges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exchanges\gemini.cpp">
+      <Filter>Source Files\exchanges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exchanges\itbit.cpp">
+      <Filter>Source Files\exchanges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exchanges\kraken.cpp">
+      <Filter>Source Files\exchanges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exchanges\okcoin.cpp">
+      <Filter>Source Files\exchanges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exchanges\poloniex.cpp">
+      <Filter>Source Files\exchanges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exchanges\quadrigacx.cpp">
+      <Filter>Source Files\exchanges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exchanges\wex.cpp">
+      <Filter>Source Files\exchanges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\base64.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\restapi.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\send_email.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exchanges\coinbase.cpp">
+      <Filter>Source Files\exchanges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\result.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\utils\base64.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils\gettime.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils\hmac_sha512.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils\restapi.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils\send_email.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exchanges\binance.h">
+      <Filter>exchanges</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exchanges\bitfinex.h">
+      <Filter>exchanges</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exchanges\bitstamp.h">
+      <Filter>exchanges</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exchanges\bittrex.h">
+      <Filter>exchanges</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exchanges\cexio.h">
+      <Filter>exchanges</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exchanges\exmo.h">
+      <Filter>exchanges</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exchanges\gemini.h">
+      <Filter>exchanges</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exchanges\itbit.h">
+      <Filter>exchanges</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exchanges\kraken.h">
+      <Filter>exchanges</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exchanges\okcoin.h">
+      <Filter>exchanges</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exchanges\poloniex.h">
+      <Filter>exchanges</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exchanges\quadrigacx.h">
+      <Filter>exchanges</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exchanges\wex.h">
+      <Filter>exchanges</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bitcoin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\check_entry_exit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\curl_fun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\db_fun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\getpid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hex_str.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\quote_t.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\result.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\time_fun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\unique_json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\unique_sqlite.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exchanges\coinbase.h">
+      <Filter>exchanges</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
